@@ -1,0 +1,18 @@
+// standard bootstrap css
+@use '../../node_modules/bootstrap/scss/bootstrap.scss';
+// default react css `
+@use './_default.scss';
+// custom css for navbar component
+@use './_nav.scss';
+// custom css for projects components
+@use './_projects.scss';
+// custom css for education components
+@use './_education.scss';
+// custom css for footer components
+@use './_footer.scss';
+
+.App{
+    background-color: #1D3557;
+
+    color: #F1FAEE;
+}
